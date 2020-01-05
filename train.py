@@ -21,6 +21,9 @@ def _main():
     classes_path = '_classes.txt'
     anchors_path = 'model_data/yolo_anchors.txt'
     class_names = get_classes(classes_path)
+    print("-------------------CLASS NAMES-------------------")
+    print(class_names)
+    print("-------------------CLASS NAMES-------------------")
     num_classes = len(class_names)
     anchors = get_anchors(anchors_path)
 
